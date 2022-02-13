@@ -1,8 +1,8 @@
 
-# asdas
-![GitHub license](https://img.shields.io/badge/license-GNU-blue.svg)
+# cooking with gordan
+![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)
 ## Description
-trtre 
+make good pancakes with celebrity chef 
 ## TableOfContents
 * [Installation](#installation)
 * [Contributers](#contributers)
@@ -13,19 +13,19 @@ trtre
 * [License](#license)
 * [Questions](#questions)
 ## Installation
-asdas
+preheat computer to 180 degrees C than let rest for 10 minutes
 ## Usage
-asdas
+making the best scones
 ## Contributers
-asda
+Gordan ramsey you *****
 ## Tests
 undefined
 ## Questions
-Any questions please contact me @ nhf
+Any questions please contact me @ codingfood@yahoo.com
 ## Email
-nhf
+codingfood@yahoo.com
 ## Github
-adsf
+homecook154
 ## License
-GNU    
+MIT    
   

@@ -56,7 +56,7 @@ function askQuestions() {
         console.log(responses);
       
         fs.writeFile('./Readme output/README.md', generateText(responses), (err) =>
-            err ? console.error(err) : console.log('Success!')
+            err ? console.error(err) : console.log('Readme created!')
         );
     })
 }
