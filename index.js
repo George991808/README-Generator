@@ -65,7 +65,7 @@ askQuestions();
 function generateText(data) {
     return `
 # ${data.repoName}
-
+![GitHub license](https://img.shields.io/badge/license-${data.license}-blue.svg)
 ## Description
 ${data.description} 
 ## TableOfContents
