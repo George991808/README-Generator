@@ -31,7 +31,7 @@ const questions = [
     },
     {
         type: "input",
-        name: "installation",
+        name: "install",
         message: "Write installation instructions"
     },
     {
@@ -41,7 +41,7 @@ const questions = [
     },
     {
         type: "input",
-        name: "contribution",
+        name: "contributers",
         message: "Who contributed to the project?"
     },
     {
@@ -56,17 +56,43 @@ function askQuestions() {
         console.log(responses);
       
         fs.writeFile('./Readme output/README.md', generateText(responses), (err) =>
-  err ? console.error(err) : console.log('Success!')
-);
+            err ? console.error(err) : console.log('Success!')
+        );
     })
 }
 askQuestions();
 
 function generateText(data) {
     return `
-    # ${data.repoName}
-    
-    
+# ${data.repoName}
+
+## Description
+${data.description} 
+## TableOfContents
+* [Installation](#installation)
+* [Contributers](#contributers)
+* [Usage](#usage)
+* [Tests](#tests)
+* [Email](#email)
+* [Github](#github)
+* [License](#license)
+* [Questions](#questions)
+## Installation
+${data.install}
+## Usage
+${data.usage}
+## Contributers
+${data.contributers}
+## Tests
+${data.tests}
+## Questions
+Any questions please contact me @ ${data.email}
+## Email
+${data.email}
+## Github
+${data.userName}
+## License
+${data.license}    
   `;
   }
   
